@@ -1,5 +1,5 @@
 # Análise de Séries Temporais usando Python 
-Tradução do material do Workshop "Time Series Analysis in Python"
+Tradução do material do Workshop ["Time Series Analysis in Python"](https://github.com/rouseguy/TimeSeriesAnalysiswithPython)
 de [Amit Kapoor](http://twitter.com/amitkaps) e [Bargava Subramanian](http://twitter.com/bargava)
 
 **Nível de Experiência** : Iniciante
