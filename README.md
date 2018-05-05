@@ -1,63 +1,65 @@
-# Time Series Analysis using Python 
-Workshop material for Time Series Analysis in Python
-by [Amit Kapoor](http://twitter.com/amitkaps) and [Bargava Subramanian](http://twitter.com/bargava)
+# Análise de Séries Temporais usando Python 
+Tradução do material do Workshop "Time Series Analysis in Python"
+de [Amit Kapoor](http://twitter.com/amitkaps) e [Bargava Subramanian](http://twitter.com/bargava)
 
-**Experience Level** : Beginner
+**Nível de Experiência** : Iniciante
 
-**Overview**: A lot of data that we see in nature are in continuous time series. This workshop will provide an overview on how to do time series analysis and introduce time series forecasting. 
+**Visão Geral**: Vários dados que nós vemos na natureza estão em séries temporais contínuas. Esse workshop dará uma visão geral em como analisar séries temporais e uma introdução a previsão de séries temporais.
 
-**Audience**: People interested in Data analytics on time series data.
+**Público**: Pessoas interessadas em análise de dados em séries temporais.
 
-**Objective**: 
+**Objetivo**: 
 
-1. What is time series data? 
-2. How to visualize time series data 
-3. How to analyze time series data ? 
-4. How to forecast time series data?  
+1. O que é série temporal? 
+2. Como visualizar séries temporais
+3. Como analisar séries temporais? 
+4. Como prever séries temporais?  
 
 
-Weather data, stock prices, population of a country are all examples of time series data. The data is continuously recorded daily, weekly, monthly etc. While a lot of theory has been developed for representing and analyzing data at a point in time, many of those don't work well with continuous time series data. 
+Dados meteorológicos, preços de ações, população de um pais são exemplos de séries temporais. Os dados são continuamente gravados diariamente, semanalmente, mensalmente,, etc. Embora muita teoria já tenha sido desenvolvida para representar e analisar séries temporais, muitas delas não funcionam bem com dados contínuos de séries temporais.
 
-The goal of this workshop is two-fold:
+O objetivo desse workshop é duplo:
 
-1. How to analyze/visualize time-series data
-2. How to forecast using the available time-series data
+1. Como analisar/visualizar dados de séries temporais
+2. Como fazer previsões usando os dados de séries temporais disponíveis
 
-We will take a principled scientific approach on how to gather data, prepare data and explore it. We will create some summary metrics using the available data.
+Adotaremos uma abordagem científica baseada em princípios sobre como coletar, preparar e explorá dados. Criaremos algumas métricas de resumo usando os dados disponíveis.
 
-Then we will define the problem(s) we want to forecast and introduce some of the common time series forecasting models and implement them using Python. 
+Em seguida definiremos o(s) problema(s) que queremos prever e introduziremos alguns dos mais comuns modelos de previsão de séries temporais os implementaremos usando Python.
 
-**Outline**
+**Esboço**
 
-* Obtaining time series data
-* Determine what questions need to be answered
-* Generate hypotheses for various solution approaches
-* Exploring time series data
+* Obtendo dados de séries temporais
+* Determinar quais perguntas precisam ser respondidas
+* Gerar hipoteses para várias abordagens de solução
+* Explorando dados de séries temporais
   * Outliers
-  * Missing values
-  * Creating aggregate metrics
-  * Calculate percentage/proportion metrics
-  * Summary metrics
-* Visualize time series data
-* Time Series forecasting
-  * Linear regression
-  * Moving average
-  * Time series decomposition
-  * ARIMA
-  * Dynamic Regression Models
-  * Vector Autoregression
-  * Exponential Smoothing
+  * Valores faltantes (Missing values)
+  * Criando métricas agregadas
+  * Calcular o percentual/proporção das métricas
+  * Métricas de resumo
+* Visualizar dados de séries temporais
+* Previsão de séries temporais
+  * Regressão linear
+  * Média móvel
+  * Decomposição de séries temporais
+  * ARIMA (média móvel integrada autorregressiva)
+  * Modelos de Regressão Dinâmica
+  * ARV (Auto-Regressão Vetorial)
+  * Suavização Exponencial (Exponential Smoothing)
 
 
 
-*Script to check if requisite libraries for the workshop is present*
-Please execute the following command at the command prompt
+*Script para verificar se todas as dependências para o workshop está presente*
 
-    $ python check_env.py
+Por favor execute o seguinte comando no prompt de comando:
 
-If any library has a `FAIL` message, please install/upgrade that library.
+```sh
+$ python check_env.py
+```
+Se alguma da biblioteca tiver a mensagem `FAIL`, por favor instale/atualize a referida biblioteca.
 
-Installation instructions can be found [here](https://github.com/rouseguy/TimeSeriesAnalysiswithPython/blob/master/installation_instructions.md)
+As instruções para instalação podem ser encontradas [aqui](https://github.com/rouseguy/TimeSeriesAnalysiswithPython/blob/master/installation_instructions.md)
 
 ---
 ### Licensing
