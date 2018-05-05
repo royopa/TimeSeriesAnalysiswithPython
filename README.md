@@ -16,16 +16,16 @@ de [Amit Kapoor](http://twitter.com/amitkaps) e [Bargava Subramanian](http://twi
 4. Como prever séries temporais?  
 
 
-Dados meteorológicos, preços de ações, população de um pais são exemplos de séries temporais. Os dados são continuamente gravados diariamente, semanalmente, mensalmente,, etc. Embora muita teoria já tenha sido desenvolvida para representar e analisar séries temporais, muitas delas não funcionam bem com dados contínuos de séries temporais.
+Dados meteorológicos, preços de ações, população de um pais são exemplos de séries temporais. Os dados são continuamente gravados diariamente, semanalmente, mensalmente, etc. Embora muita teoria já tenha sido desenvolvida para representar e analisar séries temporais, muitas delas não funcionam bem com dados contínuos de séries temporais.
 
 O objetivo desse workshop é duplo:
 
 1. Como analisar/visualizar dados de séries temporais
 2. Como fazer previsões usando os dados de séries temporais disponíveis
 
-Adotaremos uma abordagem científica baseada em princípios sobre como coletar, preparar e explorá dados. Criaremos algumas métricas de resumo usando os dados disponíveis.
+Adotaremos uma abordagem científica baseada em princípios sobre como coletar, preparar e explorar dados. Criaremos algumas métricas de resumo usando os dados disponíveis.
 
-Em seguida definiremos o(s) problema(s) que queremos prever e introduziremos alguns dos mais comuns modelos de previsão de séries temporais os implementaremos usando Python.
+Em seguida definiremos o(s) problema(s) que queremos prever e introduziremos alguns dos mais comuns modelos de previsão de séries temporais e os implementaremos usando Python.
 
 **Esboço**
 
