@@ -32,6 +32,7 @@ except ImportError:
     print(FAIL, "Python version 2.7 is required, but %s is installed." % sys.version)
 from distutils.version import LooseVersion as Version
 
+
 def import_version(pkg, min_ver, fail_msg=""):
     mod = None
     try:
@@ -65,7 +66,6 @@ else:
 
 print()
 requirements = {
-
     'IPython'    : '4.0.3',
     'jupyter'    :'1.0.0',
     'matplotlib' :'1.5.0',
@@ -79,7 +79,4 @@ requirements = {
 
 # now the dependencies
 for lib, required_version in list(requirements.items()):
-    import_version(lib, required_version)
-
-
-    
+    import_version(lib, required_version)  
